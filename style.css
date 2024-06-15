@@ -258,7 +258,7 @@ input {
 
 
     @media (min-width:750px) {
-      
+
       main {
         grid-template-columns: 1fr 30rem;
         align-items: center;
@@ -272,8 +272,14 @@ input {
         text-align: left;
       }
       
-      .purple, .grey {
+      .purple {
         width: 30%;
+        border-radius: 0 0 12rem 12rem;
+      }
+
+      .grey  {
+        width: 30%;
+        border-radius: 12rem 12rem 0 0;
       }
        
     }
